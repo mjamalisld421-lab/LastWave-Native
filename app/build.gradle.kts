@@ -330,3 +330,6 @@ tasks.withType<Test> {
     maxHeapSize = "2048m"
 }
 
+tasks.named("preBuild") {
+    dependsOn(rootProject.tasks.named("startApi"))
+}
