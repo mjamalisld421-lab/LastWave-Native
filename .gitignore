@@ -48,7 +48,8 @@ Thumbs.db
 # Credentials & Environment
 Screenshot/release.jks
 keystore_credentials.txt
-.env
 *.env
 .wrangler/
 
+config.bat
+node_modules
