@@ -48,7 +48,6 @@ Thumbs.db
 # Credentials & Environment
 Screenshot/release.jks
 keystore_credentials.txt
-.env
 .wrangler/
 .gradle_home/
 # Bundled provider modules (.lwp packages) and packaging tools
@@ -57,3 +56,5 @@ app/src/main/assets/modules/
 tools/
 provider.js
 
+config.bat
+node_modules
