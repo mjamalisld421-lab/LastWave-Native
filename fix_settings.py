@@ -1,3 +1,4 @@
+import utils.session
 import re
 
 with open("app/src/main/java/com/lastwave/app/ui/settings/SettingsScreen.kt", "r") as f:
